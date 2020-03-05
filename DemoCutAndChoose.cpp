@@ -1,5 +1,5 @@
 //
-//  Demo for cake-cutting exercise
+//  Demo for cake-cutting exercise - cut-and-choose algorithm
 //
 //  Created by Adam Lev-Ari on 21/01/2020.
 //  Copyright © 2020 Adam Lev-Ari. All rights reserved.

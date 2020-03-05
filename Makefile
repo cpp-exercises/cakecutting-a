@@ -9,7 +9,10 @@ OBJECTS=PiecewiseConstantAgent.o PiecewiseUniformAgent.o CutAndChoose.o LastDimi
 run: demo
 	./$^
 
-demo: Demo.o $(OBJECTS)
+demo1: DemoCutAndChoose.o $(OBJECTS)
+	$(CXX) $(CXXFLAGS) $^ -o demo
+
+demo2: DemoLastDiminisher.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o demo
 
 test: TestCounter.o Test.o o $(OBJECTS)
