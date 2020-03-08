@@ -15,7 +15,7 @@ demo1: DemoCutAndChoose.o $(OBJECTS)
 demo2: DemoLastDiminisher.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o demo
 
-test: TestCounter.o Test.o o $(OBJECTS)
+test: TestCounter.o Test.o $(OBJECTS)
 	$(CXX) $(CXXFLAGS) $^ -o test
 
 %.o: %.cpp $(HEADERS)
